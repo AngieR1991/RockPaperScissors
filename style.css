@@ -1,0 +1,47 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+#playerImage, #computerImage{
+    border-style: solid;
+    border-color: black;
+    border-radius: 10%;
+    height:250px;
+    width :250px;
+}
+
+.titleImage{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(255, 254, 254);
+}
+
+
+.resultsContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+    margin:30px;
+    gap:30px;
+}
+
+
+.optionContainer{
+    display:flex;
+    flex-wrap: wrap;
+    gap:30px;
+    justify-content: center;
+}
+
+footer{
+    font-size: 20px;
+    height: 30px;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: rgba(230, 222, 222, 0.753);
+}
